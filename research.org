@@ -1,0 +1,20 @@
+* Data Exploration                                                 :DATA:EXP:
+  ** TODO determine how to calculate the information gain for all the
+     numeric (and non numeric) fields that are present in the merged
+     data set :DATA:EXP:
+ ** TODO Calculate centroids for the spraying events on a given date
+    and add those to the model :DATA:EXP:
+
+* Data Imputation
+  ** Weather:
+  ** If the data was "  T" than the value of 0.001 was imputed :DATA:IMPUTE:
+  ** if the data was "M" than the midpoint estimate was used (if a viable set of
+  endpoints could be chosen, else, the value of NA was used) :DATA:MISSING:
+** Barometric Pressure readings where substituted when NA with the nearest
+station :DATA:IMPUTE:
+
+* Notes:
+** Traps were converted to Factors rather than strings
+** Dates were converted to Date Factors rather than strings
+** Mosquito Counts can not be included in the model because they are not available in the
+test set... (they are a predicted quantity) :MODEL:RESTRICTION:

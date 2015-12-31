@@ -1,0 +1,51 @@
+Data columns (total 23 columns):
+Station                 8475 non-null int64
+Latitude                8475 non-null float64
+Longitude               8475 non-null float64
+weekNumber              8475 non-null int64
+Tmax                    8475 non-null int64
+Tmin                    8475 non-null int64
+Tavg                    8475 non-null int64
+PrecipTotal             8475 non-null float64
+StnPressure             8475 non-null float64
+SeaLevel                8475 non-null float64
+ResultSpeed             8475 non-null float64
+ResultDir               8475 non-null int64
+AvgSpeed                8475 non-null float64
+DewPoint                8475 non-null int64
+Sunrise                 8475 non-null int64
+Sunset                  8475 non-null int64
+SevendaymedianTmp       8475 non-null int64
+ThreedaymedianTmp       8475 non-null int64
+SevendaymedianMinTmp    8475 non-null int64
+ThreedaymedianMinTmp    8475 non-null int64
+SpeciesId               8475 non-null int64
+RelHumidity             8475 non-null float64
+PredMosqCnt             8475 non-null float64
+
+dtypes: float64(9), int64(14)<class 'pandas.core.frame.DataFrame'>
+Int64Index: 116293 entries, 0 to 116292
+Data columns (total 22 columns):
+Station                 116293 non-null int64
+Latitude                116293 non-null float64
+Longitude               116293 non-null float64
+weekNumber              116293 non-null int64
+Tmax                    116293 non-null int64
+Tmin                    116293 non-null int64
+Tavg                    116293 non-null int64
+PrecipTotal             116293 non-null float64
+StnPressure             116293 non-null float64
+SeaLevel                116293 non-null float64
+ResultSpeed             116293 non-null float64
+ResultDir               116293 non-null int64
+AvgSpeed                116293 non-null float64
+DewPoint                116293 non-null int64
+Sunrise                 116293 non-null int64
+Sunset                  116293 non-null int64
+SevendaymedianTmp       116293 non-null int64
+ThreedaymedianTmp       116293 non-null int64
+SevendaymedianMinTmp    116293 non-null int64
+ThreedaymedianMinTmp    116293 non-null int64
+SpeciesId               116293 non-null int64
+RelHumidity             116293 non-null float64
+dtypes: float64(8), int64(14)
